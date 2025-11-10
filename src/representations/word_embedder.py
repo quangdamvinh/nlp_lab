@@ -1,7 +1,7 @@
 import numpy as np
 import gensim
 
-class WordEMbedder():
+class WordEmbedder():
     def __init__(self, model_name: str):
         self.model = gensim.downloader.load(model_name)
         self.dim = len(self.model['the'])
