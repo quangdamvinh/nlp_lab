@@ -14,18 +14,16 @@ texts = [
 
 labels = [1, 0, 1, 0, 1, 0] # 1 for positive, 0 for negative
 
-train_texts, test_texts, train_labels, test_labels = train_test_split(
-    texts, labels, test_size=0.2, random_state=42
-)
+train_texts, test_texts, train_labels, test_labels = train_test_split(texts, labels, test_size=0.2, random_state=42)
 
 tokenizer = RegexTokenizer()
 vectorizer = TfidfVectorizer(tokenizer)
-
 clf = TextClassifier(vectorizer)
-clf.fit(train_texts, train_labels)
 
+clf.fit(train_texts, train_labels)
 preds = clf.predict(test_texts)
 metrics = clf.evaluate(test_labels, preds)
+
 print("Evaluation metrics:")
 for k, v in metrics.items():
     print(f"{k}: {v:.4f}")
