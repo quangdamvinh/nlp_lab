@@ -18,11 +18,11 @@ texts = [
 
 labels = [1, 0, 1, 0, 1, 0] # 1 for positive, 0 for negative
 - Kết quả:
-Evaluation metrics:
-accuracy: 0.5000
-precision: 0.5000
-recall: 1.0000
-f1-score: 0.6667
+Evaluation metrics:  
+accuracy: 0.5000  
+precision: 0.5000  
+recall: 1.0000  
+f1-score: 0.6667  
 
 ## Cải tiến mô hình:
 ...

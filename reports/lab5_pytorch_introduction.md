@@ -1,6 +1,6 @@
 # Lab 5 Pytorch Introduction review:
 
-File mã nguồn: https://github.com/quangdamvinh/nlp_lab/blob/main/lab5_pytorch_introduction.ipynb
+File mã nguồn: https://github.com/quangdamvinh/nlp_lab/blob/main/notebooks/lab5_pytorch_introduction.ipynb
 
 Câu hỏi: Chuyện gì xảy ra nếu bạn gọi z.backward() một lần nữa? Tại sao?
 

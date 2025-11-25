@@ -13,30 +13,30 @@
 
 ## Kết quả chạy code:
 - Lab 1:
-Text 1: Hello, world! This is a test.
-Simple tokens: ['hello', ',', 'world', '!', 'this', 'is', 'a', 'test', '.']
-Regex tokens: ['hello', ',', 'world', '!', 'this', 'is', 'a', 'test', '.']
+Text 1: Hello, world! This is a test.  
+Simple tokens: ['hello', ',', 'world', '!', 'this', 'is', 'a', 'test', '.']  
+Regex tokens: ['hello', ',', 'world', '!', 'this', 'is', 'a', 'test', '.']  
 
-Text 2: NLP is fascinating... isn't it?
-Simple tokens: ['nlp', 'is', 'fascinating', '.', '.', '.', 'isn', 't', 'it', '?']
-Regex tokens: ['nlp', 'is', 'fascinating', '.', '.', '.', 'isn', "'", 't', 'it', '?']
+Text 2: NLP is fascinating... isn't it?  
+Simple tokens: ['nlp', 'is', 'fascinating', '.', '.', '.', 'isn', 't', 'it', '?']  
+Regex tokens: ['nlp', 'is', 'fascinating', '.', '.', '.', 'isn', "'", 't', 'it', '?']  
 
-Text 3: Let's see how it handles 123 numbers and punctuation!
-Simple tokens: ['let', 's', 'see', 'how', 'it', 'handles', '123', 'numbers', 'and', 'punctuation', '!']
-Regex tokens: ['let', "'", 's', 'see', 'how', 'it', 'handles', '123', 'numbers', 'and', 'punctuation', '!']
+Text 3: Let's see how it handles 123 numbers and punctuation!  
+Simple tokens: ['let', 's', 'see', 'how', 'it', 'handles', '123', 'numbers', 'and', 'punctuation', '!']  
+Regex tokens: ['let', "'", 's', 'see', 'how', 'it', 'handles', '123', 'numbers', 'and', 'punctuation', '!']  
 
 
 Task 3:
---- Tokenizing Sample Text from UD_English-EWT ---
-Original Sample: Al-Zaman : American forces killed Shaikh Abdullah al-Ani, the preacher at the mosque in the town of ...
+--- Tokenizing Sample Text from UD_English-EWT ---  
+Original Sample: Al-Zaman : American forces killed Shaikh Abdullah al-Ani, the preacher at the mosque in the town of ...  
 
-SimpleTokenizer Output (first 20 tokens): ['al', 'zaman', 'american', 'forces', 'killed', 'shaikh', 'abdullah', 'al', 'ani', ',', 'the', 'preacher', 'at', 'the', 'mosque', 'in', 'the', 'town', 'of', 'qaim']
+SimpleTokenizer Output (first 20 tokens): ['al', 'zaman', 'american', 'forces', 'killed', 'shaikh', 'abdullah', 'al', 'ani', ',', 'the', 'preacher', 'at', 'the', 'mosque', 'in', 'the', 'town', 'of', 'qaim']  
 
-RegexTokenizer Output (first 20 tokens): ['al', '-', 'zaman', ':', 'american', 'forces', 'killed', 'shaikh', 'abdullah', 'al', '-', 'ani', ',', 'the', 'preacher', 'at', 'the', 'mosque', 'in', 'the']
+RegexTokenizer Output (first 20 tokens): ['al', '-', 'zaman', ':', 'american', 'forces', 'killed', 'shaikh', 'abdullah', 'al', '-', 'ani', ',', 'the', 'preacher', 'at', 'the', 'mosque', 'in', 'the']  
 
 - Lab 2:
-Learned vocabulary: {'.': 0, 'a': 1, 'ai': 2, 'i': 3, 'is': 4, 'love': 5, 'nlp': 6, 'of': 7, 'programming': 8, 'subfield': 9}
-Document-term matrix:
+Learned vocabulary: {'.': 0, 'a': 1, 'ai': 2, 'i': 3, 'is': 4, 'love': 5, 'nlp': 6, 'of': 7, 'programming': 8, 'subfield': 9}  
+Document-term matrix:  
 [[1, 0, 0, 1, 0, 1, 1, 0, 0, 0], [1, 0, 0, 1, 0, 1, 0, 0, 1, 0], [1, 1, 1, 0, 1, 0, 1, 1, 0, 1]]
 
 ## Giải thích kết quả:
