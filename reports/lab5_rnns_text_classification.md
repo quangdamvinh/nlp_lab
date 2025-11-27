@@ -1,6 +1,6 @@
 # Báo cáo lab 5: RNNs for text classification
 
-File mã nguồn: https://github.com/quangdamvinh/nlp_lab/blob/main/notebooks/lab5_rnns_for_text_classification.ipynb
+File mã nguồn: https://github.com/quangdamvinh/nlp_lab/blob/main/notebooks/lab5_rnns_text_classification.ipynb
 
 ## So sánh định lượng
 
